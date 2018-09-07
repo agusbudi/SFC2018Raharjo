@@ -1,0 +1,140 @@
+run:
+Define the base classifiers...
+Train the base classifiers : 
+	- classifiers 1 : J48 pruned tree is done
+	- classifiers 2 : Naive Bayes Classifier is done
+	- classifiers 3 : JRIP rules: is done
+	- classifiers 4 : SMO is done
+	- classifiers 5 : IB1 instance-based classifier is done
+	- classifiers 6 : Decision Stump is done
+	- classifiers 7 :  is done
+	- classifiers 8 : Logistic model tree  is done
+	- classifiers 9 :  is done
+	- classifiers 10 : CART Decision Tree is done
+	- classifiers 11 : Best-First Decision Tree is done
+	- classifiers 12 : RandomForest is done
+	- classifiers 13 : Bayes Network Classifier is done
+	- classifiers 14 : Naive Bayes Classifier is done
+	- classifiers 15 : The A1DE Classifier is done
+	- classifiers 16 : The A2DE Classifier is done
+	- classifiers 17 : HNB (Hidden Naive Bayes) is done
+	- classifiers 18 : Decision Table: is done
+	- classifiers 19 : Lazy Associative Classifier. Running with 460 instances and 2 distinct classes. Options: -M 4 -C 0.0 -S 0.0  is done
+	- classifiers 20 : Decision Table: is done
+	- classifiers 21 : PART decision list is done
+	- classifiers 22 : ZeroR predicts class value: 0 is done
+	- classifiers 23 : Logistic Regression with ridge parameter of 1.0E-8 is done
+	- classifiers 24 :  is done
+	- classifiers 25 : Sigmoid Node 0 is done
+	- classifiers 26 : SimpleLogistic: is done
+	- classifiers 27 : LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM) is done
+	- classifiers 28 : KStar Beta Verion (0.1b). is done
+	- classifiers 29 : Locally weighted learning is done
+	- classifiers 30 : === LBR Run information === is done
+Training Phase
+	Training time: 8719 ms
+Build the Reliable diagram...
+	Building the model by Train data
+	Find the best classifier
+	1	accuracy : 0.8891304347826087	Imbalance status : 1	KappaSensSpec : 0.8256149857978563
+	2	accuracy : 0.8869565217391304	Imbalance status : 1	KappaSensSpec : 0.8233611915450447
+	3	accuracy : 0.8978260869565218	Imbalance status : 1	KappaSensSpec : 0.8419984834796488
+	4	accuracy : 0.8913043478260869	Imbalance status : 1	KappaSensSpec : 0.8330780243349809
+	5	accuracy : 0.9891304347826086	Imbalance status : 1	KappaSensSpec : 0.982926482605084
+	6	accuracy : 0.8565217391304348	Imbalance status : 1	KappaSensSpec : 0.7892461145578537
+	7	accuracy : 0.8565217391304348	Imbalance status : 1	KappaSensSpec : 0.7897115250773437
+	8	accuracy : 0.8804347826086957	Imbalance status : 1	KappaSensSpec : 0.8166677136694981
+	9	accuracy : 0.8826086956521739	Imbalance status : 1	KappaSensSpec : 0.8210959796758297
+	10	accuracy : 0.9021739130434783	Imbalance status : 1	KappaSensSpec : 0.8469878806339992
+	11	accuracy : 0.908695652173913	Imbalance status : 1	KappaSensSpec : 0.8576368557427422
+	12	accuracy : 0.9891304347826086	Imbalance status : 1	KappaSensSpec : 0.9832381563755883
+	13	accuracy : 0.8847826086956522	Imbalance status : 1	KappaSensSpec : 0.819795115620708
+	14	accuracy : 0.8869565217391304	Imbalance status : 1	KappaSensSpec : 0.8233611915450447
+	15	accuracy : 0.9021739130434783	Imbalance status : 1	KappaSensSpec : 0.8478269249847631
+	16	accuracy : 0.9195652173913044	Imbalance status : 1	KappaSensSpec : 0.8757272592616129
+	17	accuracy : 0.908695652173913	Imbalance status : 1	KappaSensSpec : 0.8605094437705769
+	18	accuracy : 0.8630434782608696	Imbalance status : 1	KappaSensSpec : 0.7956243719663816
+	19	accuracy : 0.8782608695652174	Imbalance status : 1	KappaSensSpec : 0.8054650312010343
+	20	accuracy : 0.8913043478260869	Imbalance status : 1	KappaSensSpec : 0.8369461983780937
+	21	accuracy : 0.9021739130434783	Imbalance status : 1	KappaSensSpec : 0.8478269249847631
+	22	accuracy : 0.5673913043478261	Imbalance status : 1	KappaSensSpec : 0.25
+	23	accuracy : 0.8978260869565218	Imbalance status : 1	KappaSensSpec : 0.8424223278466886
+	24	accuracy : 0.8978260869565218	Imbalance status : 1	KappaSensSpec : 0.8424223278466886
+	25	accuracy : 0.9891304347826086	Imbalance status : 1	KappaSensSpec : 0.982926482605084
+	26	accuracy : 0.8804347826086957	Imbalance status : 1	KappaSensSpec : 0.8166677136694981
+	27	accuracy : 0.8782608695652174	Imbalance status : 1	KappaSensSpec : 0.8184594997943084
+	28	accuracy : 0.9891304347826086	Imbalance status : 1	KappaSensSpec : 0.9832381563755883
+	29	accuracy : 0.8565217391304348	Imbalance status : 1	KappaSensSpec : 0.7892461145578537
+	30	accuracy : 0.8869565217391304	Imbalance status : 1	KappaSensSpec : 0.8233611915450447
+	Average: 0.8903623188405796
+	Finalization
+	number of Bin : 10
+	average value of Bin : 0.3	0.7999999999999999
+
+Choose the recommended Algorithm(s)
+	0.233	0.896	classifier : 1 is recommended
+	0.3272	0.7602	classifier : 2 is not recommended
+	0.104	0.8116666666666666	classifier : 3 is recommended
+	0.2254	0.716	classifier : 4 is recommended
+	0.333	0.7223333333333333	classifier : 5 is not recommended
+	0.067	0.783	classifier : 6 is recommended
+	0.156	0.8915	classifier : 7 is recommended
+	0.37275	0.8452500000000001	classifier : 8 is not recommended
+	0.265	0.736	classifier : 9 is not recommended
+	0.24366666666666667	0.8975	classifier : 10 is recommended
+	0.208	0.752	classifier : 11 is recommended
+	0.166	0.9199999999999999	classifier : 12 is recommended
+	0.3204	0.7564	classifier : 13 is not recommended
+	0.3272	0.7602	classifier : 14 is not recommended
+	0.2544	0.7956000000000001	classifier : 15 is not recommended
+	0.2772	0.8056000000000001	classifier : 16 is not recommended
+	0.2044	0.7756000000000001	classifier : 17 is recommended
+	0.21133333333333335	0.7040000000000001	classifier : 18 is recommended
+	0.2503333333333333	0.9542499999999999	classifier : 19 is not recommended
+	0.17874999999999996	0.7589999999999999	classifier : 20 is recommended
+	0.216	0.778	classifier : 21 is recommended
+	0.433	NaN	classifier : 22 is not recommended
+	0.2056	0.7676000000000001	classifier : 23 is recommended
+	0.2072	0.7676000000000001	classifier : 24 is recommended
+	0.41100000000000003	0.9975	classifier : 25 is not recommended
+	0.37275	0.8452500000000001	classifier : 26 is not recommended
+	0.11933333333333333	0.6804	classifier : 27 is not recommended
+	0.375	0.8934000000000001	classifier : 28 is not recommended
+	0.067	0.624	classifier : 29 is not recommended
+	0.3272	0.7602	classifier : 30 is not recommended
+
+Start to predict:
+	 1. accuracy 0.8478260869565217	TP: 78	TN: 117	FP: 16	FN: 19
+	 2. accuracy 0.8217391304347826	TP: 78	TN: 111	FP: 22	FN: 19
+	 3. accuracy 0.8608695652173913	TP: 80	TN: 118	FP: 15	FN: 17
+	 4. accuracy 0.8478260869565217	TP: 81	TN: 114	FP: 19	FN: 16
+	 5. accuracy 0.8043478260869565	TP: 74	TN: 111	FP: 22	FN: 23
+	 6. accuracy 0.8521739130434782	TP: 80	TN: 116	FP: 17	FN: 17
+	 7. accuracy 0.8565217391304348	TP: 81	TN: 116	FP: 17	FN: 16
+	 8. accuracy 0.8260869565217391	TP: 79	TN: 111	FP: 22	FN: 18
+	 9. accuracy 0.8478260869565217	TP: 81	TN: 114	FP: 19	FN: 16
+	 10. accuracy 0.8478260869565217	TP: 78	TN: 117	FP: 16	FN: 19
+	 11. accuracy 0.8565217391304348	TP: 80	TN: 117	FP: 16	FN: 17
+	 12. accuracy 0.8217391304347826	TP: 76	TN: 113	FP: 20	FN: 21
+	 13. accuracy 0.8217391304347826	TP: 78	TN: 111	FP: 22	FN: 19
+	 14. accuracy 0.8217391304347826	TP: 78	TN: 111	FP: 22	FN: 19
+	 15. accuracy 0.8304347826086956	TP: 80	TN: 111	FP: 22	FN: 17
+	 16. accuracy 0.8304347826086956	TP: 79	TN: 112	FP: 21	FN: 18
+	 17. accuracy 0.8391304347826087	TP: 78	TN: 115	FP: 18	FN: 19
+	 18. accuracy 0.8434782608695652	TP: 80	TN: 114	FP: 19	FN: 17
+	 19. accuracy 0.8217391304347826	TP: 77	TN: 112	FP: 21	FN: 20
+	 20. accuracy 0.8695652173913043	TP: 81	TN: 119	FP: 14	FN: 16
+	 21. accuracy 0.8391304347826087	TP: 81	TN: 112	FP: 21	FN: 16
+	 22. accuracy 0.5304347826086957	TP: 52	TN: 70	FP: 63	FN: 45
+	 23. accuracy 0.8391304347826087	TP: 78	TN: 115	FP: 18	FN: 19
+	 24. accuracy 0.8391304347826087	TP: 78	TN: 115	FP: 18	FN: 19
+	 25. accuracy 0.8217391304347826	TP: 76	TN: 113	FP: 20	FN: 21
+	 26. accuracy 0.8260869565217391	TP: 79	TN: 111	FP: 22	FN: 18
+	 27. accuracy 0.8695652173913043	TP: 81	TN: 119	FP: 14	FN: 16
+	 28. accuracy 0.8217391304347826	TP: 78	TN: 111	FP: 22	FN: 19
+	 29. accuracy 0.8521739130434782	TP: 80	TN: 116	FP: 17	FN: 17
+	 30. accuracy 0.8217391304347826	TP: 78	TN: 111	FP: 22	FN: 19
+	RMV 0.8260869565217391
+	MV 0.5304347826086957
+	WMV 0.8478260869565217
+BUILD SUCCESSFUL (total time: 18 seconds)

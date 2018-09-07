@@ -1,0 +1,140 @@
+run:
+Define the base classifiers...
+Train the base classifiers : 
+	- classifiers 1 : J48 pruned tree is done
+	- classifiers 2 : Naive Bayes Classifier is done
+	- classifiers 3 : JRIP rules: is done
+	- classifiers 4 : SMO is done
+	- classifiers 5 : IB1 instance-based classifier is done
+	- classifiers 6 : Decision Stump is done
+	- classifiers 7 : 1 (141.000) NB1 NB adaptive1 is done
+	- classifiers 8 : Logistic model tree  is done
+	- classifiers 9 :  is done
+	- classifiers 10 : CART Decision Tree is done
+	- classifiers 11 : Best-First Decision Tree is done
+	- classifiers 12 : RandomForest is done
+	- classifiers 13 : Bayes Network Classifier is done
+	- classifiers 14 : Naive Bayes Classifier is done
+	- classifiers 15 : The A1DE Classifier is done
+	- classifiers 16 : The A2DE Classifier is done
+	- classifiers 17 : HNB (Hidden Naive Bayes) is done
+	- classifiers 18 : Decision Table: is done
+	- classifiers 19 : Lazy Associative Classifier. Running with 207 instances and 2 distinct classes. Options: -M 4 -C 0.0 -S 0.0  is done
+	- classifiers 20 : Decision Table: is done
+	- classifiers 21 : PART decision list is done
+	- classifiers 22 : ZeroR predicts class value: 1 is done
+	- classifiers 23 : Logistic Regression with ridge parameter of 1.0E-8 is done
+	- classifiers 24 :  is done
+	- classifiers 25 : Sigmoid Node 0 is done
+	- classifiers 26 : SimpleLogistic: is done
+	- classifiers 27 : LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM) is done
+	- classifiers 28 : KStar Beta Verion (0.1b). is done
+	- classifiers 29 : Locally weighted learning is done
+	- classifiers 30 : === LBR Run information === is done
+Training Phase
+	Training time: 2245 ms
+Build the Reliable diagram...
+	Building the model by Train data
+	Find the best classifier
+	1	accuracy : 0.8985507246376812	Imbalance status : 1	KappaSensSpec : 0.8044387686129619
+	2	accuracy : 0.8260869565217391	Imbalance status : 1	KappaSensSpec : 0.7192461472232767
+	3	accuracy : 0.8985507246376812	Imbalance status : 1	KappaSensSpec : 0.8044387686129619
+	4	accuracy : 0.893719806763285	Imbalance status : 1	KappaSensSpec : 0.7912846817972827
+	5	accuracy : 0.9130434782608695	Imbalance status : 1	KappaSensSpec : 0.8316983270590333
+	6	accuracy : 0.8067632850241546	Imbalance status : 1	KappaSensSpec : 0.7311136846957603
+	7	accuracy : 0.8260869565217391	Imbalance status : 1	KappaSensSpec : 0.7192461472232767
+	8	accuracy : 0.9130434782608695	Imbalance status : 1	KappaSensSpec : 0.8316983270590333
+	9	accuracy : 0.8792270531400966	Imbalance status : 1	KappaSensSpec : 0.7636152976514178
+	10	accuracy : 0.8792270531400966	Imbalance status : 1	KappaSensSpec : 0.7636152976514178
+	11	accuracy : 0.8888888888888888	Imbalance status : 1	KappaSensSpec : 0.7841349480326629
+	12	accuracy : 0.9130434782608695	Imbalance status : 1	KappaSensSpec : 0.8316983270590333
+	13	accuracy : 0.8260869565217391	Imbalance status : 1	KappaSensSpec : 0.7192461472232767
+	14	accuracy : 0.8260869565217391	Imbalance status : 1	KappaSensSpec : 0.7192461472232767
+	15	accuracy : 0.8260869565217391	Imbalance status : 1	KappaSensSpec : 0.7192461472232767
+	16	accuracy : 0.8743961352657005	Imbalance status : 1	KappaSensSpec : 0.7878881141736573
+	17	accuracy : 0.8647342995169082	Imbalance status : 1	KappaSensSpec : 0.7776448567292568
+	18	accuracy : 0.8792270531400966	Imbalance status : 1	KappaSensSpec : 0.7793493391935062
+	19	accuracy : 0.8840579710144928	Imbalance status : 1	KappaSensSpec : 0.7707552041608637
+	20	accuracy : 0.8840579710144928	Imbalance status : 1	KappaSensSpec : 0.7801375704070694
+	21	accuracy : 0.9082125603864735	Imbalance status : 1	KappaSensSpec : 0.8245320669804805
+	22	accuracy : 0.6763285024154589	Imbalance status : 1	KappaSensSpec : 0.25
+	23	accuracy : 0.855072463768116	Imbalance status : 1	KappaSensSpec : 0.7484885794515121
+	24	accuracy : 0.855072463768116	Imbalance status : 1	KappaSensSpec : 0.7484885794515121
+	25	accuracy : 0.9130434782608695	Imbalance status : 1	KappaSensSpec : 0.8316983270590333
+	26	accuracy : 0.8599033816425121	Imbalance status : 1	KappaSensSpec : 0.7616009775405577
+	27	accuracy : 0.8888888888888888	Imbalance status : 1	KappaSensSpec : 0.7841349480326629
+	28	accuracy : 0.9033816425120773	Imbalance status : 1	KappaSensSpec : 0.8115972709052671
+	29	accuracy : 0.8067632850241546	Imbalance status : 1	KappaSensSpec : 0.7311136846957603
+	30	accuracy : 0.8647342995169082	Imbalance status : 1	KappaSensSpec : 0.7682835820895522
+	Average: 0.8644122383252817
+	Finalization
+	number of Bin : 10
+	average value of Bin : 0.3	0.7999999999999999
+
+Choose the recommended Algorithm(s)
+	0.058	0.8335	classifier : 1 is recommended
+	0.3715	0.84425	classifier : 2 is not recommended
+	0.058	0.884	classifier : 3 is recommended
+	0.042	0.8380000000000001	classifier : 4 is recommended
+	0.038	0.821	classifier : 5 is recommended
+	0.369	0.981	classifier : 6 is not recommended
+	0.3715	0.84425	classifier : 7 is not recommended
+	0.041	0.8512000000000001	classifier : 8 is recommended
+	0.063	0.746	classifier : 9 is recommended
+	0.063	0.746	classifier : 10 is recommended
+	0.06	0.8205	classifier : 11 is recommended
+	0.041	0.8142499999999999	classifier : 12 is recommended
+	0.3715	0.84425	classifier : 13 is not recommended
+	0.3715	0.84425	classifier : 14 is not recommended
+	0.47500000000000003	0.8993333333333333	classifier : 15 is not recommended
+	0.29400000000000004	0.8119999999999999	classifier : 16 is not recommended
+	0.38575000000000004	0.8246666666666668	classifier : 17 is not recommended
+	0.2715	0.8474	classifier : 18 is not recommended
+	0.043	0.8328	classifier : 19 is recommended
+	0.2715	0.78325	classifier : 20 is not recommended
+	0.056	0.8414999999999999	classifier : 21 is recommended
+	NaN	0.676	classifier : 22 is not recommended
+	0.578	0.69775	classifier : 23 is not recommended
+	0.578	0.69775	classifier : 24 is not recommended
+	0.038	0.7906666666666666	classifier : 25 is recommended
+	0.221	0.872	classifier : 26 is recommended
+	0.188	0.7775	classifier : 27 is recommended
+	0.043	0.8214	classifier : 28 is recommended
+	0.4463333333333333	0.981	classifier : 29 is not recommended
+	0.3375	0.74575	classifier : 30 is not recommended
+
+Start to predict:
+	 1. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	 2. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 3. accuracy 0.7766990291262136	TP: 80	TN: 0	FP: 0	FN: 23
+	 4. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 5. accuracy 0.7766990291262136	TP: 80	TN: 0	FP: 0	FN: 23
+	 6. accuracy 0.7184466019417476	TP: 74	TN: 0	FP: 0	FN: 29
+	 7. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 8. accuracy 0.7669902912621359	TP: 79	TN: 0	FP: 0	FN: 24
+	 9. accuracy 0.7669902912621359	TP: 79	TN: 0	FP: 0	FN: 24
+	 10. accuracy 0.7669902912621359	TP: 79	TN: 0	FP: 0	FN: 24
+	 11. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	 12. accuracy 0.7669902912621359	TP: 79	TN: 0	FP: 0	FN: 24
+	 13. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 14. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 15. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 16. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	 17. accuracy 0.7766990291262136	TP: 80	TN: 0	FP: 0	FN: 23
+	 18. accuracy 0.7766990291262136	TP: 80	TN: 0	FP: 0	FN: 23
+	 19. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	 20. accuracy 0.7766990291262136	TP: 80	TN: 0	FP: 0	FN: 23
+	 21. accuracy 0.7766990291262136	TP: 80	TN: 0	FP: 0	FN: 23
+	 22. accuracy 0.6796116504854369	TP: 70	TN: 0	FP: 0	FN: 33
+	 23. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 24. accuracy 0.7475728155339806	TP: 77	TN: 0	FP: 0	FN: 26
+	 25. accuracy 0.7669902912621359	TP: 79	TN: 0	FP: 0	FN: 24
+	 26. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	 27. accuracy 0.7669902912621359	TP: 79	TN: 0	FP: 0	FN: 24
+	 28. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	 29. accuracy 0.7184466019417476	TP: 74	TN: 0	FP: 0	FN: 29
+	 30. accuracy 0.7572815533980582	TP: 78	TN: 0	FP: 0	FN: 25
+	RMV 0.7669902912621359
+	MV 0.7184466019417476
+	WMV 0.7669902912621359
+BUILD SUCCESSFUL (total time: 4 seconds)
